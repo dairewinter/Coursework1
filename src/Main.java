@@ -6,15 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
         employees[0] = new Employee("Середа Виктор Данилович", 1, 3500);
-        employees[1] = new Employee("Козелков Павел Кондратьевич", 2, 4300);
-        employees[2] = new Employee("Козелкова Ирина Кондратьевна", 2, 5400);
-        employees[3] = new Employee("Панферова Екатерина Сергеевна", 3, 7000);
-        employees[4] = new Employee("Сорокина Юлия Алексеевна", 3, 7600);
-        employees[5] = new Employee("Кутейщикова Варвара Николаевна", 4, 6600);
-        employees[6] = new Employee("Копаныгин Михаил Васильевич", 4, 6900);
-        employees[7] = new Employee("Курочкин Александр Иванович", 5, 3200);
-        employees[8] = new Employee("Филатов Сергей Сергеевич", 5, 3500);
-        employees[9] = new Employee("Окорокова Людмила Владимировна", 5, 2300);
+        employees[1] = new Employee("Козелков Павел Кондратьевич", 2, 4303);
+        employees[2] = new Employee("Козелкова Ирина Кондратьевна", 2, 5407);
+        employees[3] = new Employee("Панферова Екатерина Сергеевна", 3, 7004);
+        employees[4] = new Employee("Сорокина Юлия Алексеевна", 3, 7605);
+        employees[5] = new Employee("Кутейщикова Варвара Николаевна", 4, 6605);
+        employees[6] = new Employee("Копаныгин Михаил Васильевич", 4, 6909);
+        employees[7] = new Employee("Курочкин Александр Иванович", 5, 3208);
+        employees[8] = new Employee("Филатов Сергей Сергеевич", 5, 3503);
+        employees[9] = new Employee("Окорокова Людмила Владимировна", 5, 2305);
         allEmployees();
         employeesFullName();
         System.out.println("Сумма всех зарплат: " + sumSalary());
@@ -77,7 +77,7 @@ public class Main {
 
     public static double employeesAverageSalary() {
         int count = 0;
-        int sum = sumSalary();
+        double sum = sumSalary();
         for (int i = 0; i < employees.length; i++) {
             if (employees[i] != null){
                 count++;
