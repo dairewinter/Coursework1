@@ -37,7 +37,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Сотрудники{" +
+        return "Сотрудники" +
                 "ФИО: " + fullName + '\'' +
                 ", Отдел: " + department +
                 ", Зарплата: " + salary +
